@@ -58,19 +58,19 @@ public class UserTester {
         tearDown();
     }
 
-    @Test
-    public void testRankUpActivity() {
-        setUp();
-        test(1, -2, 40);
-        test(1, -2, 80);
-        test(1, -1, 20);
-        test(1, -1, 30);
-        test(1, -1, 40);
-        test(2, -1, 80);
-        test(2, 1, 20);
-        test(-1, 1, 21);
-        tearDown();
-    }
+        @Test
+        public void testRankUpActivity() {
+            setUp();
+            test(1, -2, 40);
+            test(1, -2, 80);
+            test(1, -1, 20);
+            test(1, -1, 30);
+            test(1, -1, 40);
+            test(2, -1, 80);
+            test(2, 1, 20);
+            test(-1, 1, 21);
+            tearDown();
+        }
 
     @Test
     public void testActivityRankOutOfBoundsLessThanNegativeEight() {
